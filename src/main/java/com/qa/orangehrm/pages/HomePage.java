@@ -36,7 +36,7 @@ public class HomePage extends DriverManager{
 		driver.findElement(emailField).sendKeys(em);
 		driver.findElement(freeTrailSubmit).click();
 		
-		return new FreeTrail();
+		return new FreeTrail(driver);
 		
 	}
 	

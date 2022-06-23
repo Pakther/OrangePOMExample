@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="HomePageTest">
+      <class name="com.qa.testcases.FreeTrailTest">
         <methods>
-          <include name="verifyHomePageTitleTest"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="freeTrailTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- HomePageTest -->
+      </class> <!-- com.qa.testcases.FreeTrailTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
